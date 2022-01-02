@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>The Math Quiz Game!</title>
+
+        <meta name = "viewport" content="width=device-width, initial-scale-1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap.min.css">
+        <script src="https://ajax.googleleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrap.cdn.com/bootstap/3/4/0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="quiz_game.css">
+        
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <center>
+                
+                <h1 id="btn btn-danger" style="color:aliceblue">The Math Quiz Game</h1>
+                
+        <h4 id="player1_login"></h4><span id="player1_score"></span>
+        <br>
+        <h4 id="player2_login"></h4><span id="player2_score"></span>
+        <div id="player1">
+        <h1>Player 1 Login for the game</h1>
+        <h5>User Name:</h5>
+        <input id="player1_login" placeholder="player 1 Name">
+        <br>
+        <br>
+        <br>
+        </div>
+        <div id="player2">
+            <h1>Player 2 Login for the game</h1>
+            <h5>User Name:</h5>
+            <input id="player2_login" placeholder="player 2 Name">
+            </div>
+            <button id="btn btn-succes" onclick="addUser();">Login</button>
+            </center>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="output">
+            <center>
+            <h2 id="questioner"></h2>
+            <h2 id="answerer"></h2>
+            <h1 id="number1">number 1</h1>
+            <h1 id="number2">number 2</h1>
+            <button id="btn btn-succes" onclick="send();">S E N D</button>
+            </center>
+            </div>
+    </body>
+
+    
+</html>
